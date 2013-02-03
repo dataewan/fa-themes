@@ -1,0 +1,17 @@
+template:   template.html
+
+data:
+    - 
+        name:   content/tmp.mkd
+        type:   mkd
+    - 
+        name:   content/tmp.rst
+        type:   rst
+
+    -
+        name:   content/tmp.html
+        type:   raw
+
+output:
+
+execute:

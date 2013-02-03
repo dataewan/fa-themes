@@ -1,0 +1,20 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+    <title>Testing template</title>
+</head>
+<body>
+  {% for item in data %} 
+  <div>
+    {% if item.type == 'mkd' %}
+        {{ item.name | readfile | mkd }}
+    {% elif item.type == 'rst' %}
+        {{ item.name | readfile | rst }}
+    {% elif item.type == 'raw' %}
+        {{ item.name | readfile }}
+    {% endif %}
+  </div>
+  {% endfor %}
+</body>
+</html>
