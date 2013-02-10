@@ -1,0 +1,15 @@
+# Markdown
+
+Markdown being passed through the builder into the template.
+
+## Some features of Markdown being tested.
+
+ - Bulleted
+
+ - List
+
+Code block:
+
+    print "HIYA"
+
+[Link](http://dataewan.github.com/)

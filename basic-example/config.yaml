@@ -1,5 +1,10 @@
+
+# Which template file we should use.
+# Set the directory in the build script
 template:   template.html
 
+# This data is passed through to the jinja2 template.
+# You can pass pretty much any data structure through to the template.
 data:
     - 
         name:   content/tmp.mkd
@@ -12,6 +17,8 @@ data:
         name:   content/tmp.html
         type:   raw
 
+# Optional, name of the data file to use.
 output:
 
+# List of runtimes to execute before building the template.
 execute:
