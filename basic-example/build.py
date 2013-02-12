@@ -4,7 +4,9 @@ import FranticAccelerator
 env = FranticAccelerator.FaEnv()
 
 # Set the template directory
-env.make_template_loader("templates/")
+env.set_template_dir("templates/")
 
-# Tell it to render the config
-env.render_config("config.yaml")
+# Read the config.
+env.read_config("config.yaml")
+# Output it without making changes to the config.
+env.output_config()

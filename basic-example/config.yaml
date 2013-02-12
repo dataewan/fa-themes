@@ -7,14 +7,14 @@ template:   template.html
 # You can pass pretty much any data structure through to the template.
 data:
     - 
-        name:   content/tmp.mkd
+        name:   content/content.mkd
         type:   mkd
     - 
-        name:   content/tmp.rst
+        name:   content/content.rst
         type:   rst
 
     -
-        name:   content/tmp.html
+        name:   content/content.html
         type:   raw
 
 # Optional, name of the data file to use.
